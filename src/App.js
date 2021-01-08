@@ -1,24 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react'
-import FunctionalCompo from './components/functionalcompo'
-import DateApp from './components/Dateapp';
-import TodoItem from './components/todoitem'
-import ContactCard from './components/contactcard'
-import JokePunch from './components/jokepunch';
-import jokesData from './components/jokesData'
+import FunctionalCompo from './functional-components/functionalcompo'
+import DateApp from './functional-components/Dateapp';
+import TodoItem from './functional-components/todoitem'
+import ContactCard from './functional-components/contactcard'
 
 class App extends Component {
   state={};
 
   render() {
     return(
-      <div className="todo-list">
-        <TodoItem />
-        <TodoItem />
-        <TodoItem />
-        <TodoItem />
-        <br />
         <div className="contacts">
           <ContactCard 
           name="Mr.Whiskerson"
@@ -40,12 +32,10 @@ class App extends Component {
           imgUrl="http://placekitten.com/g/200/150"
           phone="(212) 555-12345"
           Email="destroyerz@dog.com" />
-        </div>
-        <br />
-        <hr />
-        {/* <FunctionalCompo />
+
+          {/* <FunctionalCompo />
         <DateApp /> */}
-      </div>
+        </div>
     );
   }
 }

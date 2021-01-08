@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppJokeData from './AppJokeData';
+import AppProductData from "./AppProductData";
+import AppTodoData from './AppTodoData';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppJokeData />
+    <AppTodoData />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react'
-import JokePunch from './components/jokepunch';
-import jokesData from './components/jokesData'
+import JokePunch from './functional-components/jokepunch';
+import jokesData from './functional-components/jokesData'
 
 function AppJokeData () {
     const jokeComponent = jokesData.map(joke => {
