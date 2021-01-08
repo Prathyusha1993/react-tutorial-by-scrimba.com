@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import AppJokeData from './AppJokeData';
 import AppProductData from "./AppProductData";
 import AppTodoData from './AppTodoData';
+import App1 from './App1';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppTodoData />
+    <App1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
