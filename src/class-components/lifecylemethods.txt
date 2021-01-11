@@ -1,0 +1,35 @@
+render() - render method can be called  many times basically used to dispaly the content on webpage
+
+componentDidMount() - is do things like api calls from servers
+as soon as th ecomponent mount it gets the data we need to correctly display
+
+componentWillReceiveProps() - receive props from parent component to child component 
+this is deprecated now
+
+shouldComponentUpdate() - revecives next props and next state as arguments
+return true if want it to shouldComponentUpdate
+return false if not
+
+componentWillUnmount() - remove the eventlistener generally teardown or cleanup before your component disappeares
+
+//--------------------------------------------------------------------
+
+componentWillMount(), componentWillUpdate() and componentWillReceiveProps are deprecated now
+
+few other lifecycle methods are added
+1) static getDerivedStateFromProps() - its a statis so include static before
+        returns the new, updated state based upon the props
+        //https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+        //https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
+
+2)getSnapshotBeforeUpdate() - craete a backup of current way things are
+        see the document if you want to learn more
+        //https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate
+
+//----------------------------------------------------------------
+
+link for react hooks by scrimba author
+https://scrimba.com/g/greacthooks
+
+//----------------------------------------------------------------
+one important life cycle is componentDidUpdate()

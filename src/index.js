@@ -7,10 +7,11 @@ import AppJokeData from './AppJokeData';
 import AppProductData from "./AppProductData";
 import AppTodoData from './AppTodoData';
 import App1 from './App1';
+import AppConditionalRender from './AppConditionalRender';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App1 />
+    <AppConditionalRender />
   </React.StrictMode>,
   document.getElementById('root')
 );
