@@ -11,7 +11,7 @@ import AppConditionalRender from './AppConditionalRender';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppConditionalRender />
+    <App1 />
   </React.StrictMode>,
   document.getElementById('root')
 );

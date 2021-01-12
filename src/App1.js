@@ -5,6 +5,7 @@ import StateComp from "./class-components/stateComp";
 import TodoWithState from "./class-components/todowithstate";
 import HandleEvents from "./class-components/handlevents";
 import ChangingState from "./class-components/changingState";
+import APIUpdate from "./class-components/APIupdate";
 
 class App1 extends Component {
     state={
@@ -23,6 +24,7 @@ class App1 extends Component {
                 <TodoWithState />
                 <HandleEvents />
                 <ChangingState />
+                <APIUpdate/>
             </div>
         );
     }
