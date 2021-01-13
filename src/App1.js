@@ -6,6 +6,8 @@ import TodoWithState from "./class-components/todowithstate";
 import HandleEvents from "./class-components/handlevents";
 import ChangingState from "./class-components/changingState";
 import APIUpdate from "./class-components/APIupdate";
+import Forms from './class-components/forms'
+import FormPractise from "./class-components/formpractise";
 
 class App1 extends Component {
     state={
@@ -25,6 +27,10 @@ class App1 extends Component {
                 <HandleEvents />
                 <ChangingState />
                 <APIUpdate/>
+                <Forms />
+                <br />
+                
+                <FormPractise />
             </div>
         );
     }
